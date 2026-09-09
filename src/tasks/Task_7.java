@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Scanner;
-import utils.MyUtils;
+
+import utils.DigitUtils;
+import utils.InputReader;
+import utils.NumberValidator;
 
 /*
  7. Найти все p-значные числа из заданной последовательности натуральных чисел, в
@@ -14,25 +17,20 @@ import utils.MyUtils;
 
 public class Task_7 {
     public static void run(Scanner in){
-        var array = new ArrayList<Integer>(MyUtils.createList(in));
-
-        System.out.print("""
-                        Inputing p and k
-                        Enter p:""");
-        int p = in.nextInt();
-        System.out.print("Enter k: ");
-        int k = in.nextInt();
+        List<Integer> array = InputReader.createList(in);
+        int p = InputReader.readInt(in, "Enter p: ");
+        int k = InputReader.readInt(in, "Enter k: ");
         var result = new ArrayList<Integer>(parse(array, p, k));
         System.out.println(result + " , " + result.size());
     }
 
-    public static ArrayList<Integer> parse(ArrayList<Integer> array, int p, int k){
-        if (!MyUtils.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
+    public static ArrayList<Integer> parse(List<Integer> array, int p, int k){
+        if (!NumberValidator.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
         if (k >= p) throw new IllegalArgumentException("k must be lower than p");
 
         ArrayList<Integer> result = new ArrayList<>();
 
-        var filteredArray = new ArrayList<Integer>(MyUtils.filterByDigitsNumber(array, p));
+        var filteredArray = new ArrayList<Integer>(DigitUtils.filterByDigitsNumber(array, p));
         for (int i : filteredArray) {
             String newI = String.valueOf(i);
 

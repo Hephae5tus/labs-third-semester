@@ -1,6 +1,8 @@
 package tasks;
 
-import utils.MyUtils;
+import utils.DigitUtils;
+import utils.InputReader;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -13,12 +15,12 @@ import java.util.ArrayList;
 public class Task_19 {
     public static void run(Scanner in){
 
-        var array = new ArrayList<Integer>(MyUtils.createList(in));
+        var array = new ArrayList<Integer>(InputReader.createList(in));
         System.out.print("""
                         Inputing k
                         Input k:""");
         int k = in.nextInt();
-        var filteredArray = new ArrayList<Integer>(MyUtils.filterByDigitsNumber(array, 4));
+        var filteredArray = new ArrayList<Integer>(DigitUtils.filterByDigitsNumber(array, 4));
         System.out.println(filteredArray + " , " + parse(array, k));
 
     }

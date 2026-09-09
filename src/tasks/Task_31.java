@@ -1,7 +1,11 @@
 package tasks;
 
 import java.util.Scanner;
-import utils.MyUtils;
+
+import utils.InputReader;
+import utils.MathUtils;
+import utils.NumberValidator;
+
 import java.util.ArrayList;
 
 /*
@@ -14,19 +18,19 @@ import java.util.ArrayList;
 public class Task_31 {
     public static void run(Scanner in){
 
-        var array = new ArrayList<Integer>(MyUtils.createList(in));
+        var array = new ArrayList<Integer>(InputReader.createList(in));
         System.out.println(parse(array));
     }
 
     public static ArrayList<Integer> parse(ArrayList<Integer> array) {
-        if (!MyUtils.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
+        if (!NumberValidator.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
         var result = new ArrayList<Integer>();
 
         for (int i : array) {
-            if (MyUtils.isPerfect(i) && doesIncludeDigits(i)) {
+            if (MathUtils.isPerfect(i) && doesIncludeDigits(i)) {
                 result.add(i);
             }
-        }if (!MyUtils.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
+        }if (!NumberValidator.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
 
         return result;
     }
