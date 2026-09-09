@@ -1,18 +1,23 @@
 package utils;
 
+import java.util.List;
 import java.util.ArrayList;
 
 public class DigitUtils {
-    public static ArrayList<Integer> filterByDigitsNumber(ArrayList<Integer> array, int p){
-        ArrayList<Integer> result = new ArrayList<>();
+    public static List<Integer> filterByDigitsNumber(List<Integer> array, int p){
+        List<Integer> result = new ArrayList<>();
 
         for (int i : array) {
-            String newI = String.valueOf(i);
-            if (newI.length() == p) {
+            int length = 0;
+            double tempI = i;
+            while (Math.abs(tempI) >= 1) {
+                length++;
+                tempI /= 10.0;
+            }
+            if (length == p) {
                 result.add(i);
             }
         }
-
         return result;
     }
 }

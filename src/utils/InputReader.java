@@ -1,12 +1,13 @@
 package utils;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class InputReader {
-    public static ArrayList<Integer> createList(Scanner in){
+    public static List<Integer> createList(Scanner in){
         System.out.println("Creating array");
-        var result = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<>();
         while (true){
             System.out.print("Input a number(exit to stop): ");
             String line = in.nextLine();

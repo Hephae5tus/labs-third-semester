@@ -7,6 +7,7 @@ import utils.MathUtils;
 import utils.NumberValidator;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /*
 31. Найти и вывести из заданной последовательности натуральных чисел, все
@@ -18,30 +19,24 @@ import java.util.ArrayList;
 public class Task_31 {
     public static void run(Scanner in){
 
-        var array = new ArrayList<Integer>(InputReader.createList(in));
+        List<Integer> array = InputReader.createList(in);
         System.out.println(parse(array));
     }
 
-    public static ArrayList<Integer> parse(ArrayList<Integer> array) {
+    public static List<Integer> parse(List<Integer> array) {
         if (!NumberValidator.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
-        var result = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<Integer>();
 
-        for (int i : array) {
-            if (MathUtils.isPerfect(i) && doesIncludeDigits(i)) {
+        for (int i : array)
+            if (MathUtils.isPerfect(i) && doesIncludeDigits(i))
                 result.add(i);
-            }
-        }if (!NumberValidator.isArrayNatural(array)) throw new IllegalArgumentException("Array elements must be positive");
-
         return result;
     }
 
     public static boolean doesIncludeDigits(int number) {
-        char[] newNum = String.valueOf(number).toCharArray();
-
-        for(char i : newNum){
-            if (i == '3' || i == '1') return true;
-        }
+        for(int tempNum = number; tempNum != 0; tempNum/=10)
+            if (tempNum%10 == 3 || tempNum%10 == 1)
+                return true;
         return false;
     }
-
 }
