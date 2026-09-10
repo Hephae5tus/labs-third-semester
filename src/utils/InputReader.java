@@ -1,41 +1,44 @@
 package utils;
 
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class InputReader {
-    public static List<Integer> createList(Scanner in){
-        System.out.println("Creating array");
+public final class InputReader {
+
+    private InputReader() {
+        throw new UnsupportedOperationException("Utility class cannot be created");
+    }
+
+    public static List<Integer> createList(Scanner in, String message, String stopWord, PrintStream out){
         List<Integer> result = new ArrayList<>();
-        while (true){
-            System.out.print("Input a number(exit to stop): ");
+        while (true) {
+            out.print(message + " (Enter " + stopWord + " to break): ");
             String line = in.nextLine();
             try {
                 int number = Integer.parseInt(line);
                 result.add(number);
             }
-            catch (Throwable e) {
-                if (line.equals("exit")) {
+            catch (NumberFormatException e) {
+                if (line.equals(stopWord)) {
                     break;
                 }
-                System.out.println("Invalid value. Try again.");
+                out.println("Invalid value. Try again.");
             }
         }
-
         return result;
     }
 
-    public static int readInt(Scanner in, String message) {
-        int num;
-        while (true){
-            System.out.print(message);
-            try{
-                num = in.nextInt();
-                return num;
+    public static int readInt(Scanner in, String message, PrintStream out) {
+        while (true) {
+            out.print(message);
+            String line = in.nextLine();
+            try {
+                return Integer.parseInt(line);
             }
-            catch (RuntimeException e) {
-                System.out.println("Invalid value. Try again.");
+            catch (NumberFormatException e) {
+                out.println("Invalid value. Try again.");
             }
         }
     }

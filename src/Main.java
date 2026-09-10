@@ -9,11 +9,12 @@ class Main{
         Scanner in = new Scanner(System.in);
 
 //        System.out.println("Task 7");
-//        Task_7.run(in);
+//        Task_7.run(in, System.out);
 //        System.out.println("Task 19");
-//        Task_19.run(in);
+//        Task_19.run(in, System.out);
         System.out.println("Task 31");
-        Task_31.run(in);
+        Task_31.run(in, System.out);
 
+        in.close();
     }
 }

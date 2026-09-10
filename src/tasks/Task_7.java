@@ -1,5 +1,6 @@
 package tasks;
 
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.HashSet;
@@ -17,33 +18,37 @@ import utils.NumberValidator;
 */
 
 public class Task_7 {
-    public static void run(Scanner in){
-        List<Integer> array = InputReader.createList(in);
-        int p = InputReader.readInt(in, "Enter p: ");
-        int k = InputReader.readInt(in, "Enter k: ");
+    public static void run(Scanner in, PrintStream out){
+        List<Integer> array = InputReader.createList(in, "Enter a number", "stop", out);
+        int p = InputReader.readInt(in, "Enter p: ", out);
+        int k = InputReader.readInt(in, "Enter k: ", out);
         List<Integer> result = parse(array, p, k);
-        System.out.println(result + " , " + result.size());
+        out.println(result + " , " + result.size());
     }
 
     public static List<Integer> parse(List<Integer> array, int p, int k){
-        if (!NumberValidator.isArrayNatural(array))
+        if (NumberValidator.isArrayNatural(array)) {
             throw new IllegalArgumentException("Array elements must be positive");
-        if (k >= p)
+        }
+        if (k < 1) {
+            throw new IllegalArgumentException("k must be greater than 0");
+        }
+        if (k >= p) {
             throw new IllegalArgumentException("k must be lower than p");
+        }
 
         List<Integer> result = new ArrayList<>();
-
         List<Integer> filteredArray = DigitUtils.filterByDigitsNumber(array, p);
+        Set<Integer> uniqueNums = new HashSet<>();
+
         for (int i : filteredArray) {
-            int uniqueDigits = 0;
-            for (int tempI = i; tempI != 0; tempI/=10) {
-                int repeats = 0;
-                int a = tempI % 10;
-                for (int tempTempI = i; tempTempI != 0; tempTempI/=10)
-                    if (a == (tempTempI % 10)) repeats++;
-                if (repeats == 1) uniqueDigits++;
+            for (int tempI = i; tempI != 0; tempI /= 10) {
+                uniqueNums.add(tempI % 10);
             }
-            if (uniqueDigits <= k) result.add(i);
+            if (uniqueNums.size() <= k) {
+                result.add(i);
+            }
+            uniqueNums.clear();
         }
         return result;
     }
