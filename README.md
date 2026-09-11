@@ -1,44 +1,30 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=220&section=header&text=JAVA%20LABS&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Technologies%20of%20Programming%20%C2%B7%20BSU%20MMF&descAlignY=58&descSize=20&descColor=ffffff" width="100%"/>
+```
+      ██╗ █████╗ ██╗   ██╗ █████╗     ██╗      █████╗ ██████╗ ███████╗
+      ██║██╔══██╗██║   ██║██╔══██╗    ██║     ██╔══██╗██╔══██╗██╔════╝
+      ██║███████║██║   ██║███████║    ██║     ███████║██████╔╝███████╗
+ ██   ██║██╔══██║╚██╗ ██╔╝██╔══██║    ██║     ██╔══██║██╔══██╗╚════██║
+ ╚█████╔╝██║  ██║ ╚████╔╝ ██║  ██║    ███████╗██║  ██║██████╔╝███████║
+  ╚════╝ ╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
+```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=B983FF&center=true&vCenter=true&width=650&lines=compiles+on+my+machine+%F0%9F%98%85;HashMap+iteration+order%3F+chaos.;another+day%2C+another+for-loop;matrix+go+brrr" alt="Typing SVG" />
+<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="130"/>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="700" alt="Animated contribution snake"/>
 
-<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F7A41D&center=true&vCenter=true&width=600&lines=compiles+on+my+machine+%F0%9F%98%85;HashMap+iteration+order%3F+chaos.;another+day%2C+another+for-loop;matrix+go+brrr" alt="Typing SVG" />
 
-[![Java](https://img.shields.io/badge/Java-6C3EF4?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
-[![BSU](https://img.shields.io/badge/BSU-MMF-8E44FF?style=for-the-badge)](https://bsu.by)
-[![Course](https://img.shields.io/badge/Technologies_of_Programming-A855F7?style=for-the-badge)](#)
-[![Year](https://img.shields.io/badge/Year-2-C084FC?style=for-the-badge)](#)
-[![Status](https://img.shields.io/badge/status-alive%20(barely)-D8B4FE?style=for-the-badge)](#)
+<br>
 
-**Author:** Matvey Filipchick
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
+[![BSU](https://img.shields.io/badge/BSU-MMF-9b30ff?style=for-the-badge)](https://bsu.by)
+[![Course](https://img.shields.io/badge/Technologies_of_Programming-00b4d8?style=for-the-badge)](#)
+[![Vibes](https://img.shields.io/badge/vibes-immaculate-ff69b4?style=for-the-badge)](#)
+[![Bugs](https://img.shields.io/badge/bugs-a%20feature-ff4136?style=for-the-badge)](#)
+[![Coffee](https://img.shields.io/badge/fueled_by-coffee-6f4e37?style=for-the-badge&logo=buymeacoffee&logoColor=white)](#)
+[![Build](https://img.shields.io/badge/build-it%20compiled%20once-success?style=for-the-badge)](#)
 
-</div>
-
----
-
-## 🧠 What is this madness?
-
-This repository is a living creature made of `int[][]`, `HashMap`s, and questionable
-Stack Overflow-adjacent decisions. It's the official battlefield for lab assignments
-from **Technologies of Programming**, fought bravely (mostly) in **Java**.
-
-> *"It compiles. Ship it."* — every student, every semester, forever.
-
----
-
-## ⚙️ Tech Stack
-
-<div align="center">
-
-![Java](https://img.shields.io/badge/-Java-6C3EF4?style=flat-square&logo=java&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/-IntelliJ%20IDEA-8E44FF?style=flat-square&logo=intellijidea&logoColor=white)
-![OOP](https://img.shields.io/badge/-OOP-A855F7?style=flat-square)
-![Scanner](https://img.shields.io/badge/-java.util.Scanner-C084FC?style=flat-square)
-![HashMap](https://img.shields.io/badge/-HashMap-D8B4FE?style=flat-square)
-![JUnit5](https://img.shields.io/badge/-JUnit%205-6C3EF4?style=flat-square&logo=junit5&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-8E44FF?style=flat-square&logo=git&logoColor=white)
+**Author:** Matvey Filipchick · **Faculty:** Mathematics & Mechanics (MMF) · **Year:** 2 🎓
 
 </div>
 
@@ -57,6 +43,21 @@ the ancestors intended.
 
 ---
 
+<div align="center">
+
+## ⚙️ Tech Stack
+
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![IntelliJ](https://img.shields.io/badge/-IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+![OOP](https://img.shields.io/badge/-OOP-orange?style=flat-square)
+![Scanner](https://img.shields.io/badge/-java.util.Scanner-6a1b9a?style=flat-square)
+![HashMap](https://img.shields.io/badge/-HashMap-f9c80e?style=flat-square)
+![JUnit5](https://img.shields.io/badge/-JUnit%205-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+</div>
+
+
 ## 🧪 Testing Philosophy
 
 ```java
@@ -71,16 +72,26 @@ if (itCompiles && outputLooksRight) {
 
 ---
 
+
+```
+      _____
+     /     \
+    | () () |    "keep calm and catch your NullPointerException"
+     \  ^  /
+      |||||
+      |||||
+```
+
 <div align="center">
 
-[![Made with](https://img.shields.io/badge/made%20with-java%20%26%20suffering-6C3EF4?style=for-the-badge)](#)
-[![Sleep](https://img.shields.io/badge/sleep%20schedule-what's%20that%3F-A855F7?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/license-do%20whatever%2C%20just%20cite%20me-D8B4FE?style=for-the-badge)](#)
+### 🎓 BSU · Faculty of Mathematics and Mechanics · 2nd Year 🎓
+
+[![Made with](https://img.shields.io/badge/made%20with-java%20%26%20suffering-blueviolet?style=for-the-badge)](#)
+[![Sleep](https://img.shields.io/badge/sleep%20schedule-what's%20that%3F-critical?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/license-do%20whatever%2C%20just%20cite%20me-lightgrey?style=for-the-badge)](#)
 
 **⭐ Star this repo if you also enjoy debugging `HashMap` iteration order at 2 AM ⭐**
 
 *Made with Java, `for` loops, and the unshakable belief that this matrix WILL sort correctly.*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=150&section=footer" width="100%"/>
 
 </div>
