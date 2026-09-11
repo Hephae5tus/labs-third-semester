@@ -1,86 +1,276 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=220&section=header&text=JAVA%20LABS&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Technologies%20of%20Programming%20%C2%B7%20BSU%20MMF&descAlignY=58&descSize=20&descColor=ffffff" width="100%"/>
+<!-- ===================== CHAOS HEADER ===================== -->
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=B983FF&center=true&vCenter=true&width=650&lines=compiles+on+my+machine+%F0%9F%98%85;HashMap+iteration+order%3F+chaos.;another+day%2C+another+for-loop;matrix+go+brrr" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=FF00FF,00FFFF,FFFF00,FF3300,7A00FF&height=220&section=header&text=MATVEY%20FILIPCHICK&fontSize=52&fontColor=FFFFFF&animation=twinkling&fontAlignY=38&desc=MMF%20YEAR%202%20%E2%80%A2%20JAVA%20%E2%80%A2%20TECHNOLOGIES%20OF%20PROGRAMMING&descAlignY=62&descSize=18" width="100%"/>
 
-<br><br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=900&pause=150&color=FF00FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=%E2%98%A2%EF%B8%8F+WELCOME+TO+THE+PROGRAMMING+ABYSS+%E2%98%A2%EF%B8%8F;JAVA+%2B+CHAOS+%2B+WAY+TOO+MANY+COLORS;MMF+YEAR+2+%7C+TECHNOLOGIES+OF+PROGRAMMING;WARNING%3A+THIS+README+HAS+NO+MINIMALISM" alt="Animated typing"/>
 
-[![Java](https://img.shields.io/badge/Java-6C3EF4?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
-[![BSU](https://img.shields.io/badge/BSU-MMF-8E44FF?style=for-the-badge)](https://bsu.by)
-[![Course](https://img.shields.io/badge/Technologies_of_Programming-A855F7?style=for-the-badge)](#)
-[![Year](https://img.shields.io/badge/Year-2-C084FC?style=for-the-badge)](#)
-[![Status](https://img.shields.io/badge/status-alive%20(barely)-D8B4FE?style=for-the-badge)](#)
+<br/>
 
-**Author:** Matvey Filipchick
+<img src="https://img.shields.io/badge/STATUS-ABSOLUTELY%20CHAOTIC-ff00ff?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/JAVA-100%25-00ffff?style=for-the-badge&logo=openjdk&logoColor=black"/>
+<img src="https://img.shields.io/badge/MMF-YEAR%202-ffff00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/READABILITY-QUESTIONABLE-ff3300?style=for-the-badge"/>
 
 </div>
-
----
-
-## 🧠 What is this madness?
-
-This repository is a living creature made of `int[][]`, `HashMap`s, and questionable
-Stack Overflow-adjacent decisions. It's the official battlefield for lab assignments
-from **Technologies of Programming**, fought bravely (mostly) in **Java**.
-
-> *"It compiles. Ship it."* — every student, every semester, forever.
-
----
-
-## ⚙️ Tech Stack
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/-Java-6C3EF4?style=flat-square&logo=java&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/-IntelliJ%20IDEA-8E44FF?style=flat-square&logo=intellijidea&logoColor=white)
-![OOP](https://img.shields.io/badge/-OOP-A855F7?style=flat-square)
-![Scanner](https://img.shields.io/badge/-java.util.Scanner-C084FC?style=flat-square)
-![HashMap](https://img.shields.io/badge/-HashMap-D8B4FE?style=flat-square)
-![JUnit5](https://img.shields.io/badge/-JUnit%205-6C3EF4?style=flat-square&logo=junit5&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-8E44FF?style=flat-square&logo=git&logoColor=white)
+🚨🚨🚨 ⚠️ SYSTEM OVERLOAD ⚠️ 🚨🚨🚨
+
+<img src="https://media.giphy.com/media/3o7TKz2eMXxO5c9Gq4/giphy.gif" width="180"/>
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="180"/>
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="180"/>
+
+🔥🔥🔥 THIS IS NOT A README 🔥🔥🔥
+
+💥 THIS IS A DOCUMENTATION INCIDENT 💥
+
+🌈 THERE IS NO SUCH THING AS TOO MANY COLORS 🌈
 
 </div>
 
----
+🧨 WHO JUST ENTERED THE CODEBASE?
 
-## 🚀 How to summon it
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-# open in IntelliJ IDEA, hit Run on Main.java, and pray
-```
+👨‍💻 IDENTITY.exe
 
-No `pom.xml`, no `build.gradle` — just raw, artisanal, hand-compiled Java, the way
-the ancestors intended.
+╔════════════════════════════════════╗
+║  NAME      :: MATVEY FILIPCHICK   ║
+║  PROGRAM   :: MMF                 ║
+║  YEAR      :: 2                   ║
+║  SUBJECT   :: TECHNOLOGIES        ║
+║              OF PROGRAMMING       ║
+║  WEAPON    :: JAVA ☕             ║
+║  MOOD      :: CHAOTIC             ║
+╚════════════════════════════════════╝
 
----
+</td>
+<td width="50%" valign="top">
 
-## 🧪 Testing Philosophy
+🧠 CURRENT_PROCESS
 
-```java
-if (itCompiles && outputLooksRight) {
-    ship();
-} else {
-    blameTheIDE();
+[████████████████████████████] 100%
+
+Compiling...
+███████████████████████████
+
+Loading Java...
+███████████████████████████
+
+Removing sanity...
+███████████████████████████
+
+Adding colors...
+███████████████████████████
+
+Adding animations...
+███████████████████████████
+
+ERROR: TOO MUCH AWESOME
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&size=25&duration=500&pause=80&color=00FFFF&center=true&vCenter=true&width=850&lines=%3E+sudo+apt+install+java;...;Permission+denied%3A+minimalism;...;%3E+sudo+apt+install+more-colors;SUCCESS%3A+CHAOS+INSTALLED" alt="Terminal animation"/>
+
+</div>
+
+☕ JAVA.exe HAS ENTERED THE CHAT
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=java,git,github,idea,maven&theme=dark" alt="Technology icons"/>
+
+<br/><br/>
+
+<img src="https://github-readme-tech-stack.vercel.app/api/cards?title=THE%20ARSENAL&fontFamily=Roboto&theme=github_dark&lineCount=2&line1=java%2CJava%2C1%2Cff00ff%3Bgit%2CGit%2C1%2C00ffff%3Bgithub%2CGitHub%2C1%2Cffff00&line2=intellijidea%2CIntelliJ%20IDEA%2C1%2Cff3300%3Bmaven%2CMaven%2C1%2C7a00ff" width="800"/>
+
+</div>
+
+🌈 THE COLOR ENGINE
+
+RULE #01: If a section can have color, it gets color.
+RULE #02: If a section can animate, it gets animation.
+RULE #03: If it can do both, DO BOTH.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="130"/>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="700" alt="Animated contribution snake"/>
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td align="center">🟥<br/><b>RED</b><br/>DANGER</td>
+<td align="center">🟧<br/><b>ORANGE</b><br/>FIRE</td>
+<td align="center">🟨<br/><b>YELLOW</b><br/>WARNING</td>
+<td align="center">🟩<br/><b>GREEN</b><br/>SUCCESS</td>
+<td align="center">🟦<br/><b>BLUE</b><br/>SYSTEM</td>
+<td align="center">🟪<br/><b>PURPLE</b><br/>CHAOS</td>
+<td align="center">🩷<br/><b>PINK</b><br/>OVERLOAD</td>
+</tr>
+</table>
+
+💣 THE CODE ZONE
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/████-JAVA-ff00ff?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/████-OOP-00ffff?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/████-ALGORITHMS-ffff00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/████-STRUCTURES-ff3300?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/████-LOGIC-7A00FF?style=for-the-badge"/>
+
+</div>
+
+public final class MatveyFilipchick {
+
+    public static void main(String[] args) {
+
+        String student = "Matvey Filipchick";
+        String program  = "MMF — Year 2";
+        String subject  = "Technologies of Programming";
+        String language  = "JAVA";
+
+        while (true) {
+            System.out.println("☕ " + language);
+            System.out.println("🌈 ADD MORE COLORS");
+            System.out.println("💥 ADD MORE ANIMATIONS");
+            System.out.println("🔥 BREAK THE MINIMALISM");
+
+            // There is no escape.
+        }
+    }
 }
-```
-
-(Okay fine, there are actual JUnit tests too. We're not *complete* animals.)
-
----
 
 <div align="center">
 
-[![Made with](https://img.shields.io/badge/made%20with-java%20%26%20suffering-6C3EF4?style=for-the-badge)](#)
-[![Sleep](https://img.shields.io/badge/sleep%20schedule-what's%20that%3F-A855F7?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/license-do%20whatever%2C%20just%20cite%20me-D8B4FE?style=for-the-badge)](#)
+🧪 LIVE CHAOS MONITOR
 
-**⭐ Star this repo if you also enjoy debugging `HashMap` iteration order at 2 AM ⭐**
+<img src="https://github-readme-stats.vercel.app/api?username=MatveyFilipchick&show_icons=true&theme=radical&hide_border=true&bg_color=0D001A&title_color=FF00FF&icon_color=00FFFF&text_color=FFFFFF" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatveyFilipchick&layout=compact&theme=radical&hide_border=true&bg_color=001A1A&title_color=00FFFF&text_color=FFFFFF" width="42%"/>
 
-*Made with Java, `for` loops, and the unshakable belief that this matrix WILL sort correctly.*
+<br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24&height=150&section=footer" width="100%"/>
+<img src="https://streak-stats.demolab.com?user=MatveyFilipchick&theme=radical&hide_border=true&background=0D001A&ring=FF00FF&fire=FFFF00&currStreakLabel=00FFFF" width="700"/>
+
+</div>
+
+Note: GitHub statistics widgets may require a real GitHub username/repository context. Replace MatveyFilipchick in the widget URLs if your GitHub handle is different.
+
+🚧 THE ROADMAP TO ABSOLUTE CHAOS
+
+                 ┌───────────────────────────┐
+                 │       JAVA UNIVERSE       │
+                 └─────────────┬─────────────┘
+                               │
+                ┌──────────────▼──────────────┐
+                │      MMF — YEAR 2           │
+                └──────────────┬──────────────┘
+                               │
+             ┌─────────────────▼─────────────────┐
+             │ TECHNOLOGIES OF PROGRAMMING      │
+             └─────────────────┬─────────────────┘
+                               │
+             ┌─────────────────▼─────────────────┐
+             │       CODE → DEBUG → REPEAT      │
+             └─────────────────┬─────────────────┘
+                               │
+                     ┌─────────▼─────────┐
+                     │  MORE COLORS 🌈  │
+                     └─────────┬─────────┘
+                               │
+                     ┌─────────▼─────────┐
+                     │ MORE ANIMATIONS 💥│
+                     └─────────┬─────────┘
+                               │
+                     ┌─────────▼─────────┐
+                     │      CHAOS ☢️     │
+                     └───────────────────┘
+
+🚨 WARNING: EDUCATIONAL CONTENT DETECTED
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=700&pause=100&color=FF3300&center=true&vCenter=true&width=900&lines=%5BWARNING%5D+Academic+Java+detected;%5BWARNING%5D+Second+year+student+detected;%5BWARNING%5D+Too+many+GIFs+detected;%5BWARNING%5D+Colors+are+escaping+containment;%5BCRITICAL%5D+MINIMALISM+NOT+FOUND" alt="Warning animation"/>
+
+</div>
+
+🎯 MISSION OBJECTIVES
+
+Status
+
+Objective
+
+Threat Level
+
+🟢
+
+Survive Year 2
+
+☢️☢️
+
+🟢
+
+Master Java
+
+☢️☢️☢️
+
+🟡
+
+Understand programming technologies
+
+☢️☢️☢️☢️
+
+🔴
+
+Eliminate bugs
+
+☢️☢️☢️☢️☢️
+
+🔴
+
+Preserve sanity
+
+IMPOSSIBLE
+
+🔥
+
+Add more animations
+
+MAXIMUM
+
+🌈
+
+Add more colors
+
+INFINITE
+
+<div align="center">
+
+💀 FINAL BOSS
+
+<img src="https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif" width="250"/>
+
+JAVA HAS NO END.
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=600&pause=100&color=FF00FF&center=true&vCenter=true&width=900&lines=MATVEY+FILIPCHICK;MMF+YEAR+2;TECHNOLOGIES+OF+PROGRAMMING;JAVA+%E2%98%95;WELCOME+TO+THE+CHAOS;THANKS+FOR+SURVIVING+THE+README" alt="Final animation"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7A00FF,FF00FF,FF3300,FFFF00,00FFFF&height=160&section=footer&animation=twinkling" width="100%"/>
+
+🌈💥☕ END OF DOCUMENTATION — BEGINNING OF CHAOS ☕💥🌈
 
 </div>
