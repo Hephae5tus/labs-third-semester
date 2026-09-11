@@ -27,7 +27,7 @@ public class Task_7 {
     }
 
     public static List<Integer> parse(List<Integer> array, int p, int k){
-        if (NumberValidator.isArrayNatural(array)) {
+        if (!NumberValidator.isArrayNatural(array)) {
             throw new IllegalArgumentException("Array elements must be positive");
         }
         if (k < 1) {

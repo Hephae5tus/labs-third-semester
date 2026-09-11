@@ -10,10 +10,10 @@ public final class NumberValidator {
 
     public static boolean isArrayNatural(List<Integer> array){
         for (int i : array) {
-            if (i > 0) {
-                return true;
+            if (i <= 0) {
+                return false;
             }
         }
-        return false;
+        return true;
     }
 }

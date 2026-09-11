@@ -23,14 +23,14 @@ public class Task_31 {
     }
 
     public static List<Integer> parse(List<Integer> array) {
-        if (NumberValidator.isArrayNatural(array)) {
+        if (!NumberValidator.isArrayNatural(array)) {
             throw new IllegalArgumentException("Array elements must be positive");
         }
 
         List<Integer> result = new ArrayList<>();
         for (int i : array) {
             if (isPerfect(i) && doesIncludeDigits(i)) {
-                result.add(i);
+                boolean add = result.add(i);
             }
         }
         return result;
