@@ -1,1 +1,0 @@
-Filipchick Matvey, 2 year, group 6
