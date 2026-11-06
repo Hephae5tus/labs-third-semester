@@ -1,0 +1,11 @@
+HELMET;Shoei NXR2;320.50;1.35;L;true
+JACKET;Alpinestars GP Plus;450.00;3.20;leather;5
+GLOVES;Dainese Carbon;89.90;0.25;M;true
+BOOTS;TCX Rush;210.00;2.10;43;28.5
+PANTS;RevIt Torway;175.40;1.80;textile;true
+HELMET;;-10;abc;;notABool
+JACKET;Broken Jacket;badPrice;2.0;;0
+UNKNOWN;Something;10;1;x;y
+GLOVES
+BOOTS;Sidecar Boots;55.0;-5;xx;yy
+PANTS;Cheap Pants;40;0.9;;
